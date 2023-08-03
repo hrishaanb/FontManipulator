@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>Font Manipulator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<center>
+  <h3 class="btn btn-warning heading">Font Manipulator
+    <br>
+    <span class="note">NOTE - Get your left and right wrist closer 
+      to reduce the size of the text and to increase the size of 
+      the text keep your left and right wrist far from each other. 
+      Move your nose to move the text</span>
+    <br>
+    <span id="text_size"></span>
+    <br>
+  </h3>
+  <br>
+  <br>
+  <div id="input_holder" class="btn btn-warning input_holder">
+  <span class="note">Set the message you want to put in here!</span>
+  <br>
+  <input id="input" class="btn btn-danger" placeholder="Type here">
+  <br>
+  <button class="btn btn-success" id="done" onclick="nextPage()">Done</button>
+  <br>
+  </div>
+  <br>
+  <div class="btn btn-warning">
+    <span class="note"> Choose your color</span>
+    <br>
+    <button class="color_button" id="red" onclick="redChosen()"></button>
+    <button class="color_button" id="orange" onclick="orangeChosen()"></button>
+    <button class="color_button" id="yellow" onclick="yellowChosen()"></button>
+    <button class="color_button" id="green" onclick="greenChosen()"></button>
+    <button class="color_button" id="blue" onclick="blueChosen()"></button>
+    <button class="color_button" id="cyan" onclick="cyanChosen()"></button>
+    <button class="color_button" id="purple" onclick="purpleChosen()"></button>
+    <button class="color_button" id="white" onclick="whiteChosen()"></button>
+    <button class="color_button" id="black" onclick="blackChosen()"></button>
+  </div>
+  <br>
+  <br>
+  <br>
+</center>
+<div class="copy_right_footer">Developed by - Hrishaan</div>
+<script src="main.js"></script>
+</body>
+</html>
+
+
